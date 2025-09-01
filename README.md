@@ -15,25 +15,25 @@ This project develops a **multi-model text classification system** that
             - **DL Models** (e.g., LSTMs, CNNs) with word embeddings.  
             - **Transformers** (e.g., BERT, DistilBERT, RoBERTa) for contextual embeddings.  
 
-            The models are trained and compared for performance, then deployed 
-            in a **Streamlit application** on **AWS EC2** (with optional Hugging Face Spaces deployment).  
+The models are trained and compared for performance, then deployed 
+in a **Streamlit application** on **AWS EC2** (with optional Hugging Face Spaces deployment).  
 
 ---
 
 ### 📂 Data Description  
 - The dataset contains **news articles** with text content and their corresponding category labels.  
   - Each record consists of:  
-    - **Title / Content**: The article text to classify  
-      - **Category Label**: One of the predefined categories  
-        - Preprocessing includes tokenization, cleaning, and vectorization for ML/DL models.  
+  - **Title / Content**: The article text to classify  
+  - **Category Label**: One of the predefined categories  
+  - Preprocessing includes tokenization, cleaning, and vectorization for ML/DL models.  
 ---
 
 ### 🗂️ Categories  
 The system classifies articles into the following categories:  
 - 🌍 **World**  
-  - 💼 **Business**  
-    - 🏅 **Sports**  
-      - 💻 **Technology**  
+- 💼 **Business**  
+- 🏅 **Sports**  
+- 💻 **Technology**  
 
 ---
 
